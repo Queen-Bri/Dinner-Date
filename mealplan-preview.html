@@ -1,0 +1,315 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>May 2026 Meal Plan</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="calendar-header">
+            <div class="orb a"></div><div class="orb b"></div><div class="orb c"></div>
+            <h1>May <span>2026</span> Meal Plan</h1>
+            <p class="sub">Rotating | Perishable-first | Leftover-Aware | Starts May 4</p>
+        </div>
+
+        <div class="legend">
+            <div class="li"><div class="pip pip-b"></div>Breakfast</div>
+            <div class="li"><div class="pip pip-d"></div>Dinner</div>
+            <div class="li"><div class="pip pip-l"></div>Lunch</div>
+            <div class="li"><div class="pip pip-lo"></div>Lunch (leftovers)</div>
+            <div class="li"><div class="pip pip-ep"></div>Easy Peasy &lt;5 min</div>
+            <div class="li"><div class="pip pip-wk"></div>Weekend-Only Meal</div>
+        </div>
+ 
+ 
+        <div class="notebar">
+            <strong>Leftover logic:</strong> Mon-thu → next day lunch &nbsp; | &nbsp; Friday dinner → following Monday Lunch &nbsp; | &nbsp; Sat &amp; Sun: no leftovers &nbscp; | &nbsp; Breakfasts repeat Mon-Fri the full Weekend
+        </div>
+
+        <div class="cal-wrap">
+            <div class="dheaders">
+                <div class="dh">Sun</div>
+                <div class="dh">Mon</div>
+                <div class="dh">Tue</div>
+                <div class="dh">Wed</div>
+                <div class="dh">Thu</div>
+                <div class="dh wk">Fri</div>
+                <div class="dh wk">Sat</div>
+            </div>
+        </div>    
+
+        <div class="grid">
+
+            <!-- Row 1: Apr 26-May2 (5 empties + May 1 Fri + May 2 Sat) -->
+             <div class="cell empty"></div>
+             <div class="cell empty"></div>
+             <div class="cell empty"></div>
+             <div class="cell empty"></div>
+             <div class="cell empty"></div>
+
+             <!-- May 1 Fri - pre-plan -->
+              <div class="cell sat preplan">
+                <div class="ctop"><span class="cnum">1</span><span class="cdname">Fri</span> </div>
+                <div class="meal m-bl"><span class="mtype">Pre-Plan</span><span class="mname"> Grocery run &amp; batch prep day</span></div>
+              </div>
+             <!-- May 2 Sat - pre=plan --> 
+              <div class="cell  sat preplan">
+                <div class="ctop"><span class="cnum">2</span><span class="cdname">Sat</span></div>
+                <div class="meal m-bl"><span class="mtype">Pre-plan</span><span class="mname">Grocery run &amp; batch prep day</span></div>
+              </div>
+              <!-- Row 22: May 3 Sun - May 9 Sat -->
+
+              <!-- May 3 Sun - pre-plan -->
+               <div class="cell sun preplan">
+                <div class="ctop"><span class="cnum">3</span><span class="cdname">Sun</span></div>
+                <div class="meal m-bl"><span class="mtype">Pre-Plan</span><span class="mname">Prep banana bread &amp; meals for the week</span></div>
+               </div>
+              <!-- Mon May 4 - PLAN STARTS -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">4</span><span class="cdname">Mon</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Banana bread, eggs &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch</span><span class="mname">- Plan begins, no prior leftovers</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Tomato Soup &amp; Grilled Cheese w/ Bacon</span></div>
+               </div> 
+
+              <!-- Tue May 5 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">5</span><span class="cdname">Tue</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Banana bread, eggs &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Tomato Soup &amp; Grilled Cheese</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Deli Sandwich <span class="ep"> EASY PEASY</span></span><span class="mnote">deli meat, fresh lettuce, tomato, onion</span></div>
+               </div>
+
+               <!-- Wed May 6 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">6</span><span class="cdname">Wed</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Banana bread, eggs &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Deli Sandwich</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Chicken &mp; Rice Bowl </span><span class="mnote">bell peppers, lettuce, pickled onions</span></div>
+               </div>
+
+              <!-- Thu May 7 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">7</span><span class="cdname">Thu</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Banana bread, eggs &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Chicken &mp; Rice Bowl</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Shrimp Tacos &mp; Homeade Slaw <span class="mnote">cabbage, fresh tomatoes, Greek yofurt, lime</span></span></div>
+               </div>
+               
+              <!-- Fri May 8 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">8</span><span class="cdname">Fri</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Banana bread, eggs &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Shrimp Tacos &mp Slaw</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Chicken Sandwich &mp; Mashed Potatoes</span><span class="mnote">mashed potatoes, pickled onions, pickles, tomatoes</span></div>
+               </div> 
+
+               <!-- Sat May 9 -->
+               <div class="cell sat">
+                <div class="ctop"><span class="cnum">9</span><span class="cdname">Sat</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Freestyle (Pancakes???)</span></div>
+                <div class="meal m-bl"><span class="mtype">Lunch</span><span class="mname">Takeout or Freetyle</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Jamaican Stew Chicken <span class="wk">WEEKEND</span></span><span class="mnote">rice &mp; peas, fried plantain</span></div>
+               </div>
+
+              <!-- Row 3: May 10-16 --> 
+
+              <!-- Sun May 10 -->
+               <div class="cell sun">
+                <div class="ctop"><span class="cnum">10</span><span class="cdname">Sun</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Jamaican Stew Chicken <span class="wk">WEEKEND</span><span class="mnote">leftovers from Saturday dinner</span></div>
+                <div class="meal m-b"><span class="mtype">Lunch</span><span class="mname">Publix Fried Chicken and Hawaiian Rolls</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Baked Mac &mp; Cheese + Fried Chicken <span class="wk">WEEKEND</span></span><span class="mnote">sweet potatoes, broccoli</span></div>
+               </div>
+
+              <!-- Mon May 11 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">11</span><span class="cdname">Mon</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Potato Scramble Bowl &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Fri leftovers</span><span class="mname">- Breaded Chicken Sandwich</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Tomato Soup &amp; Grilled Cheese w/ Bacon</span><span class="mnote">7-day gap!</span></div>
+               </div> 
+
+              <!-- Tue May 12 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">12</span><span class="cdname">Tue</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Potato Scramble Bowl &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Tomato Soup &amp; Grilled Cheese</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Chicken &mp; Rice Bowl</span><span class="mnote">6-day gap!</span></div>
+               </div>
+
+               <!-- Wed May 13 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">13</span><span class="cdname">Wed</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Potato Scramble Bowl &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Chicken &mp; RIce Bowl</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Deli Sandwich</span><span class="ep">EASY PEASY</span><span class="mnote">8-day gap!</span></div>
+               </div>
+
+              <!-- Thu May 14 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">14</span><span class="cdname">Thu</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Potato Scramble Bowl &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Deli Sandwich</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Shrimp Tacos &mp; Homeade Slaw<span class="mnote">7-day gap</span></span></div>
+               </div>
+               
+              <!-- Fri May 15 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">15</span><span class="cdname">Fri</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Potato Scramble Bowl &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Shrimp Tacos &mp; Slaw</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner → Mon May 18 Lunch</span><span class="mname">Chicken Quesedilla, Mexican Rice, Refried Beans, Salad</span><span class="mnote">use Publix chickens</span></div>
+               </div> 
+
+               <!-- Sat May 16 -->
+               <div class="cell sat">
+                <div class="ctop"><span class="cnum">16</span><span class="cdname">Sat</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Biscuits &mp; Gravy, sausage, fresh tomatoes</span></div>
+                <div class="meal m-bl"><span class="mtype">Lunch</span><span class="mname">???</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">I genuininely do not know... </span></div>
+               </div>
+
+              <!-- Row 4: May 17-23 --> 
+
+                <!-- Sun May 17 -->
+               <div class="cell sun">
+                <div class="ctop"><span class="cnum">17</span><span class="cdname">Sun</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Suasage Egg &mp; Cheese Sandwich</span></div>
+                <div class="meal m-b"><span class="mtype">Lunch</span><span class="mname">Hot dogs, Macaroni, Broccoli</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Freestyle<span class="wk">WEEKEND</span></span></div>
+               </div>
+
+              <!-- Mon May 18 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">18</span><span class="cdname">Mon</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade McGriddles, Tater Tots &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Fri leftovers</span><span class="mname">Chicken Quesadilla</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Chicken and Rice (Bowl??)</span><span class="mnote">7-day gap!</span></div>
+               </div> 
+
+              <!-- Tue May 19 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">19</span><span class="cdname">Tue</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade McGriddles, Tater Tots &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Chicken &amp; Rice</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Stir Fry</span><span class="mnote">frozen stir fry veggies, rice, whatever meat is in there (maybe shrimp)</span></div>
+               </div>
+
+               <!-- Wed May 20 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">20</span><span class="cdname">Wed</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade McGriddles, Tater Tots &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Stir Fry</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Pizza</span><span class="ep">I NEED A BREAK</span><span class="mnote">freeze leftovers</span></div>
+               </div>
+
+              <!-- Thu May 21 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">21</span><span class="cdname">Thu</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade McGriddles, Tater Tots &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Pizza</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Chicken Salad w/Fries<span class="mnote">(forgot about the fries lol)</span></span></div>
+               </div>
+               
+              <!-- Fri May 22 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">22</span><span class="cdname">Fri</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade McGriddles, Tater Tots &amp; Fruit</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Chicken Salad w/Fries</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner → Mon May 25 Lunch</span><span class="mname">Fried Chicken w/mashed Potatoes</span></div>
+               </div> 
+
+               <!-- Sat May 23 -->
+               <div class="cell sat">
+                <div class="ctop"><span class="cnum">23</span><span class="cdname">Sat</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">scrambled eggs w/spinach, fried potatoes, homemade cfa bites</span></div>
+                <div class="meal m-bl"><span class="mtype">Lunch</span><span class="mname">Pizza</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Lo Mein from Restaraunt in Jupiter</span><span class="mnote">Sooo yummy! Order Orange Chicken to go</span></div>
+               </div>
+
+              <!-- Row 5 May 24-30 --> 
+
+               <!-- Sun May 24 -->
+               <div class="cell sun">
+                <div class="ctop"><span class="cnum">24</span><span class="cdname">Sun</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade Chicken/Sausage Biscuit &mp; Potatoes <span class="wk">WEEKEND</span><span class="mnote">leftovers from Saturday dinner</span></div>
+                <div class="meal m-b"><span class="mtype">Lunch</span><span class="mname">Leftover Lo Mein or Hot Dogs</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Baked Mac &mp; Cheese + Fried Chicken <spam class="wk">WEEKEND</spam></span><span class="mnote">sweet potatoes, broccoli</span></div>
+               </div>
+
+              <!-- Mon May 25 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">25</span><span class="cdname">Mon</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Breakfast Burrito &amp; Tater Tots</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Fri leftovers</span><span class="mname">- Orange Chicken from Restaraunt in Jupiter</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Pizza &mp; Huge Salad (very big - or else)</span><span class="mnote">7-day gap!</span></div>
+               </div> 
+
+              <!-- Tue May 26 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">26</span><span class="cdname">Tue</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Breakfast Burrito &amp; Tater Tots</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Pizza &mp; Salad</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Chicken &mp; Rice Bowl</span><span class="mnote">6-day gap!</span></div>
+               </div>
+
+               <!-- Wed May 27 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">27</span><span class="cdname">Wed</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Breakfast Burrito &amp; Tater Tots</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Chicken &mp; Rice Bowl</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Stir Fry or Fried Rice with egg roll</span><span class="ep">EASY PEASY</span><span class="mnote">8-day gap!</span></div>
+               </div>
+
+              <!-- Thu May 28 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">28</span><span class="cdname">Thu</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Breakfast Burrito &amp; Tater Tots</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Sitr Fry or Fried Rice</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">Beef Burrito &mp; Guacamole<span class="mnote">7-day gap</span></span></div>
+               </div>
+               
+              <!-- Fri May 29 -->
+               <div class="cell">
+                <div class="ctop"><span class="cnum">29</span><span class="cdname">Fri</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Breakfast Burrito &amp; Tater Tots</span></div>
+                <div class="meal m-lo"><span class="mtype">Lunch - Leftovers</span><span class="mname">Beef Burrito</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner → Mon May 18 Lunch</span><span class="mname">Grilled, Mexican Rice, Refried Beans, Salad</span><span class="mnote">use Publix chickens</span></div>
+               </div> 
+
+               <!-- Sat May 30 - pre-plan for June -->
+               
+              <!-- Sat May 30 -->
+               <div class="cell sat">
+                <div class="ctop"><span class="cnum">30</span><span class="cdname">Sat</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Treat yo'self! + Grocery Shopping</span></div>
+                <div class="meal m-bl"><span class="mtype">Lunch</span><span class="mname">undecided</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">undecided</span><span class="mnote">Meal Prep for upcoming week &mp; month</span></div>
+               </div>
+
+               <!-- Sun May 31 -->
+               <div class="cell sun">
+                <div class="ctop"><span class="cnum">31</span><span class="cdname">Sun</span></div>
+                <div class="meal m-b"><span class="mtype">Breakfast</span><span class="mname">Homemade Chicken/Sausage Biscuit &mp; Potatoes<span class="mnote">leftovers from Saturday dinner</span></div>
+                <div class="meal m-b"><span class="mtype">Lunch</span><span class="mname">Hot Dogs</span></div>
+                <div class="meal m-d"><span class="mtype">Dinner</span><span class="mname">undecided</span><span class="mnote">Meal Prep for upcoming week &mp; month</span></div>
+               </div>
+        </div>
+
+        <footer class="footer">
+            <p>© 2026 Your Brand</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+
+        </body>
+
+            
